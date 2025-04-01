@@ -12,9 +12,6 @@ import { Button } from "@/components/ui/button";
 import { categories, companyLogos, featuredJobs, latestJobs } from "@/data/mockData";
 
 const Index = () => {
-  // Upload the hero image to the project
-  const heroImageUrl = "public/lovable-uploads/5856ef81-0d76-46b8-b4c5-936e96be08ec.png";
-
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <Navbar />
@@ -47,11 +44,7 @@ const Index = () => {
           </div>
           <div className="w-full lg:w-1/2 mt-12 lg:mt-0 relative">
             <div className="relative z-10">
-              <img 
-                src={heroImageUrl} 
-                alt="Job seeker" 
-                className="w-full h-auto object-contain" 
-              />
+              {/* Removed the image */}
             </div>
             <div className="absolute top-0 right-0 w-full h-full">
               <svg width="100%" height="100%" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
