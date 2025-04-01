@@ -144,8 +144,8 @@ const Jobs = () => {
                       company={job.company}
                       location={job.location}
                       logoSrc={job.logoSrc}
-                      salary={job.salary}
-                      jobType={job.jobType || ""}
+                      salary={'salary' in job ? job.salary : undefined}
+                      jobType={'jobType' in job ? job.jobType : ''}
                       tags={job.tags}
                       isFullTime={job.isFullTime}
                     />
