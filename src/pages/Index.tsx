@@ -43,8 +43,13 @@ const Index = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2 mt-12 lg:mt-0 relative">
-            <div className="relative z-10">
-              {/* Removed the image */}
+            <div className="relative z-10 flex justify-center lg:justify-end">
+              <img 
+                src="/lovable-uploads/db79e94f-77db-4aab-9c72-a03bfb308e48.png" 
+                alt="Professional looking for jobs" 
+                className="rounded-lg shadow-lg max-w-full h-auto"
+                style={{ maxHeight: "500px", objectFit: "contain" }}
+              />
             </div>
             <div className="absolute top-0 right-0 w-full h-full">
               <svg width="100%" height="100%" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
