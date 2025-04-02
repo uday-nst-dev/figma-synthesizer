@@ -1,5 +1,6 @@
 
 import { cn } from "@/lib/utils";
+import ImageWithFallback from "./ImageWithFallback";
 
 interface JobListItemProps {
   id: string;
@@ -25,7 +26,11 @@ const JobListItem = ({
   return (
     <div className={cn("flex bg-white rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow", className)}>
       <div className="w-10 h-10 bg-gray-100 rounded-md flex items-center justify-center overflow-hidden mr-3">
-        <img src={logoSrc} alt={company} className="w-full h-full object-contain p-1" />
+        <ImageWithFallback 
+          src={logoSrc} 
+          alt={company} 
+          className="w-full h-full object-contain p-1" 
+        />
       </div>
       <div className="flex-1">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between">

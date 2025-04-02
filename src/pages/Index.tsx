@@ -44,7 +44,11 @@ const Index = () => {
           </div>
           <div className="w-full lg:w-1/2 mt-12 lg:mt-0 relative">
             <div className="relative z-10">
-              {/* Removed the image */}
+              <img 
+                src="/images/hero-image.jpg" 
+                alt="Job hunting illustration" 
+                className="w-full h-auto object-cover rounded-lg shadow-xl"
+              />
             </div>
             <div className="absolute top-0 right-0 w-full h-full">
               <svg width="100%" height="100%" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +118,7 @@ const Index = () => {
             </div>
             <div className="w-full lg:w-1/2">
               <img 
-                src="/placeholder.svg" 
+                src="/images/dashboard-mockup.jpg" 
                 alt="Dashboard" 
                 className="rounded-lg shadow-xl max-w-full h-auto"
               />

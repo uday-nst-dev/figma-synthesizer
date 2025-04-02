@@ -1,4 +1,3 @@
-
 // Mock categories data
 export const categories = [
   {
@@ -54,11 +53,11 @@ export const categories = [
 
 // Mock company logos
 export const companyLogos = [
-  { id: 1, name: "Vodafone", logo: "/placeholder.svg" },
-  { id: 2, name: "Intel", logo: "/placeholder.svg" },
-  { id: 3, name: "Tesla", logo: "/placeholder.svg" },
-  { id: 4, name: "AMD", logo: "/placeholder.svg" },
-  { id: 5, name: "TalkIt", logo: "/placeholder.svg" },
+  { id: 1, name: "Vodafone", logo: "/images/company-logos/vodafone.svg" },
+  { id: 2, name: "Intel", logo: "/images/company-logos/intel.svg" },
+  { id: 3, name: "Tesla", logo: "/images/company-logos/tesla.svg" },
+  { id: 4, name: "AMD", logo: "/images/company-logos/amd.svg" },
+  { id: 5, name: "TalkIt", logo: "/images/company-logos/talkit.svg" },
 ];
 
 // Mock featured jobs
@@ -68,7 +67,7 @@ export const featuredJobs = [
     title: "Digital Marketing",
     company: "Revolut",
     location: "Madrid, Spain",
-    logoSrc: "/placeholder.svg",
+    logoSrc: "/images/company-logos/revolut.svg",
     salary: "$50k - $75k",
     jobType: "Revolut is looking for Digital Marketing to drive marketing campaigns.",
     tags: ["Marketing", "Digital"],
@@ -79,7 +78,7 @@ export const featuredJobs = [
     title: "Brand Designer",
     company: "Dropbox",
     location: "San Francisco, US",
-    logoSrc: "/placeholder.svg",
+    logoSrc: "/images/company-logos/dropbox.svg",
     salary: "$60k - $95k",
     jobType: "Dropbox is looking for Brand Designer to create stunning visuals.",
     tags: ["Design", "Creative", "Branding"],
@@ -160,7 +159,7 @@ export const latestJobs = [
     title: "Social Media Assistant",
     company: "Revital",
     location: "Paris, France",
-    logoSrc: "/placeholder.svg",
+    logoSrc: "/images/company-logos/revital.svg",
     tags: ["Social", "Marketing"],
     isFullTime: false,
   },
@@ -169,7 +168,7 @@ export const latestJobs = [
     title: "Social Media Assistant",
     company: "Notify",
     location: "Paris, France",
-    logoSrc: "/placeholder.svg",
+    logoSrc: "/images/company-logos/notify.svg",
     tags: ["Social", "Marketing"],
     isFullTime: false,
   },
@@ -178,7 +177,7 @@ export const latestJobs = [
     title: "Brand Designer",
     company: "Dropbox",
     location: "San Francisco, USA",
-    logoSrc: "/placeholder.svg",
+    logoSrc: "/images/company-logos/dropbox.svg",
     tags: ["Design", "Branding"],
     isFullTime: true,
   },
